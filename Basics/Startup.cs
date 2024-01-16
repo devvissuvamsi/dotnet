@@ -23,6 +23,13 @@ namespace Basics
             /***** value and referene type example ****/
             Console.WriteLine("***************** value reference type example ****************");
             ValueAndReferenceTypes.ValueAndReferenceTypesExample();
+
+            /************ loops example *********/
+            Console.WriteLine("***************** loops example ****************");
+            LoopsClass.ForLoop();
+            Console.WriteLine("\n");
+            LoopsClass.ForEachLoop();
+            LoopsClass.WhileLoop();
         }
     }
 }

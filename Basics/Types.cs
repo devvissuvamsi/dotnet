@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Basics
 {
-    internal class MyFirstProgram
+    internal class Types
     {
-        static void Main(string[] args)
+        public void TypesMethod()
         {
             byte b = 10; // 0 - 255
             short s = 100;
